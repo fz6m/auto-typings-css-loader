@@ -20,6 +20,12 @@
 
 ### 使用
 
+安装：
+
+```bash
+  yarn add -D auto-typings-css-loader
+```
+
 将 `css-loader` 替换为该 loader 即可，原 `css-loader` 配置移至 `cssLoaderOptions` 配置项，例子如下：
 
 ```diff
